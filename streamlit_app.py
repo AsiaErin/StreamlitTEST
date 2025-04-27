@@ -25,7 +25,6 @@ def generate_forecast(start_date, end_date):
 
         model = Prophet(yearly_seasonality=False, weekly_seasonality=True, daily_seasonality=False)
 
-        # Only add regressors if they exist
         for reg in extra_regressors:
             model.add_regressor(reg)
 
