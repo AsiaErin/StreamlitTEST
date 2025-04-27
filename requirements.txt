@@ -1,6 +1,5 @@
-cmdstanpy==1.0.2
+streamlit==1.17.0
+pandas==1.5.3
+numpy==1.23.4
 prophet==1.1.2
-pandas
-numpy
-scikit-learn
-streamlit
+scikit-learn==1.0.2
